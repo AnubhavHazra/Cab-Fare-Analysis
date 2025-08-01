@@ -1,6 +1,7 @@
 # Cab-Fare-Analysis
 Introduction
 This is a study of fares of cab rides, and various factors that influence the fare in different ways,i.e. when the fares are usually low, the relative importance of some predictor might be more, and vice versa. 
+\\
 Objective
 Ordinary least squares regression gives us the average effect, or more specifically the conditional mean of the response,given the predictor values.We would want to get an idea of the corresponding conditional quantiles.This would sketch out a better picture of the varying distributions, alongside relaxing the classical model’s homoscedasticity assumption.We would have separate regression lines for each quantile,whose parameter estimates would be obtained by minimizing the sum of skewed(weighted) absolute deviations from the response values,where the weights are a function of the particular quantile we want to fit.
 Data Description
